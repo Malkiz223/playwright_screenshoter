@@ -1,0 +1,7 @@
+services:
+  screenshot-app:
+    build: .
+    container_name: screenshot-app
+    volumes:
+      - ./screenshots:/app/screenshots
+    working_dir: /app
